@@ -9,6 +9,9 @@ let package = Package(
         .library(
             name: "MoyaSwiftyJSONMapper",
             targets: ["MoyaSwiftyJSONMapper"]),
+        .library(
+            name: "SwiftyJSON",
+            targets: ["MoyaSwiftyJSONMapper"]),
     ],
     dependencies: [
         .package(url: "https://github.com/Moya/Moya.git", .upToNextMajor(from: "15.0.0")),
