@@ -18,7 +18,8 @@ let package = Package(
     targets: [
         .target(
             name: "MoyaSwiftyJSONMapper",
-            dependencies: []
+            dependencies: [],
+            path: "Source"
             )
     ]
 )
